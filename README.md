@@ -1,4 +1,4 @@
-# BowieD.Unturned.NPCMaker with no Discord Rich Presence
+# BowieD.Unturned.NPCMaker with no Discord Rich Presence (1.18.0.0)
 ## Features
 * Character creation and edition
 ![Image](screens/character.png)
