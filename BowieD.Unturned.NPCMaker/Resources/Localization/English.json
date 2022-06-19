@@ -7,7 +7,7 @@
         "Project_SaveFilter_Legacy": "Legacy NPC Project (*.npc)",
         "Project_TemplateFilter": "NPC Template (*.npctemplate)",
         "ImportGameAssets_Directory_Title": "Select Unturned directory",
-        "Title": "Unturned 3.0 NPC Maker by BowieD",
+        "Title": "Unturned NPC Maker",
         "Configuration_Title": "App Settings",
         "UGC_ImageFilter": "Supported Images ({0})"
     },

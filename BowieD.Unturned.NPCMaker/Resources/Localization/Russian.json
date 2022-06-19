@@ -7,7 +7,7 @@
         "Project_SaveFilter_Legacy": "Файл старого проекта NPC (*.npc)",
         "Project_TemplateFilter": "Файл шаблона NPC (*.npctemplate)",
         "ImportGameAssets_Directory_Title": "Выберите директорию с Unturned",
-        "Title": "Unturned 3.0 NPC Maker by BowieD",
+        "Title": "Unturned NPC Maker",
         "Configuration_Title": "Настройки",
         "UGC_ImageFilter": "Поддерживаемые изображения ({0})"
     },

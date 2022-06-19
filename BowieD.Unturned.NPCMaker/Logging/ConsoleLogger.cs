@@ -91,7 +91,7 @@ namespace BowieD.Unturned.NPCMaker.Logging
         }
         public void Open()
         {
-            Console.Title = "Unturned 3.0 NPC Maker by BowieD";
+            Console.Title = "Unturned NPC Maker";
         }
         public static void WaitForInput()
         {
