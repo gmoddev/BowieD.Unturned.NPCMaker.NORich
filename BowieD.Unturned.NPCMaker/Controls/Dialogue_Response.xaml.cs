@@ -104,14 +104,9 @@ namespace BowieD.Unturned.NPCMaker.Controls
         private void EditRewardsButton_Click(object sender, RoutedEventArgs e)
         {
             Forms.Universal_ListView ulv = new Forms.Universal_ListView(Response.rewards.Select(d => new Universal_ItemList(d, Universal_ItemList.ReturnType.Reward, true)).ToLimitedList(byte.MaxValue), Universal_ItemList.ReturnType.Reward);
-            try
-            {
-                RichPresence presence = new RichPresence
-                {
-                    Details = $"Editing NPC {MainWindow.Instance.txtEditorName.Text ?? "without name"}".Shortify(125),
-                    State = "Creating reward for a dialogue response"
-                };
-                (MainWindow.DiscordManager as DiscordRPC.DiscordManager)?.SendPresence(presence);
+            try {
+
+
             }
             catch (Exception ex)
             {
@@ -127,12 +122,7 @@ namespace BowieD.Unturned.NPCMaker.Controls
             Forms.Universal_ListView ulv = new Forms.Universal_ListView(Response.conditions.Select(d => new Universal_ItemList(d, Universal_ItemList.ReturnType.Condition, true)).ToLimitedList(byte.MaxValue), Universal_ItemList.ReturnType.Condition);
             try
             {
-                RichPresence presence = new RichPresence
-                {
-                    Details = $"Editing NPC {MainWindow.Instance.txtEditorName.Text ?? "without name"}".Shortify(125),
-                    State = "Creating condition for a dialogue response"
-                };
-                (MainWindow.DiscordManager as DiscordRPC.DiscordManager)?.SendPresence(presence);
+              
             }
             catch (Exception ex)
             {

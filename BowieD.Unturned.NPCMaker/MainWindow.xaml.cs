@@ -34,7 +34,7 @@ namespace BowieD.Unturned.NPCMaker
         }
         public MainWindowViewModel MainWindowViewModel { get; }
         #region MANAGERS
-        public static DiscordRPC.DiscordManager DiscordManager { get; set; }
+       
         #endregion
         public new void Show()
         {
@@ -159,14 +159,6 @@ namespace BowieD.Unturned.NPCMaker
 #if PREVIEW
             previewOverlayText.Visibility = Visibility.Visible;
 #endif
-            #endregion
-            #region DISCORD
-            DiscordManager = new DiscordRPC.DiscordManager(1000)
-            {
-                descriptive = AppConfig.Instance.enableDiscord
-            };
-            DiscordManager?.Initialize();
-            MainWindowViewModel.TabControl_SelectionChanged(mainTabControl, null);
             #endregion
             #region ENABLE EXPERIMENTAL
             if (AppConfig.Instance.experimentalFeatures)
@@ -586,7 +578,6 @@ namespace BowieD.Unturned.NPCMaker
             }
 
             App.Logger.Log("Closing app");
-            DiscordManager?.Deinitialize();
             Environment.Exit(0);
         }
         internal void OpenPatchNotes()
