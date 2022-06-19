@@ -900,7 +900,6 @@
     <Resource Include="Resources\Help\img_help_editorName.png" />
     <Resource Include="Resources\Help\img_help_startDialogue.png" />
     <Resource Include="Resources\Help\img_help_visibilityConditions.png" />
-    <Resource Include="Libs\DiscordRPC.dll" />
     <Resource Include="Libs\MahApps.Metro.dll" />
     <Resource Include="Libs\ControlzEx.dll" />
     <Resource Include="Libs\Microsoft.Xaml.Behaviors.dll" />

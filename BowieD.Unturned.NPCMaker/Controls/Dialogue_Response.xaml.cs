@@ -4,7 +4,6 @@ using BowieD.Unturned.NPCMaker.GameIntegration;
 using BowieD.Unturned.NPCMaker.Localization;
 using BowieD.Unturned.NPCMaker.NPC;
 using BowieD.Unturned.NPCMaker.ViewModels;
-using DiscordRPC;
 using System;
 using System.Linq;
 using System.Windows;

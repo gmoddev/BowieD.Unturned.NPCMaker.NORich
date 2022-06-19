@@ -91,7 +91,6 @@ namespace BowieD.Unturned.NPCMaker
                 Logger.Log("This programs uses 3rd party apps, type `license l' for details.");
                 Logger.Log("[EXTRCT] - Extracting libraries...", ELogLevel.DEBUG);
                 #region COPY LIBS
-                CopyResource(NPCMaker.Properties.Resources.DiscordRPC, Path.Combine(AppConfig.Directory, "DiscordRPC.dll"));
                 CopyResource(NPCMaker.Properties.Resources.Newtonsoft_Json, Path.Combine(AppConfig.Directory, "Newtonsoft.Json.dll"));
                 CopyResource(NPCMaker.Properties.Resources.ControlzEx, Path.Combine(AppConfig.Directory, "ControlzEx.dll"));
                 CopyResource(NPCMaker.Properties.Resources.MahApps_Metro, Path.Combine(AppConfig.Directory, "MahApps.Metro.dll"));
