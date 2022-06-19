@@ -363,7 +363,6 @@
     <Compile Include="Configuration\ConfigWindow.xaml.cs">
       <DependentUpon>ConfigWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DiscordRPC\DiscordWorker.cs" />
     <Compile Include="Export\Exporter.cs" />
     <Compile Include="Forms\Form_About.xaml.cs">
       <DependentUpon>Form_About.xaml</DependentUpon>
